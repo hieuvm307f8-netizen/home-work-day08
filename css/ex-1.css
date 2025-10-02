@@ -1,0 +1,57 @@
+.content {
+    margin-top: 60px;
+}
+
+.content .title {
+    font-size: 32px;
+    font-weight: 600;
+}
+
+.content .desc {
+    margin-top: 15px;
+    line-height: 1.5;
+}
+
+.btn-open {
+    margin-top: 15px;
+}
+
+.overlay {
+    position: fixed;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.5);
+    display: none;
+}
+
+input[type="checkbox"]:checked ~ .overlay {
+    display: block;
+}
+
+.overlay .body {
+    padding: 20px;
+    width: 680px;
+    background-color: #fff;
+    margin: 300px auto;
+}
+
+.header-modal {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.open-btn {
+    display: inline-block;
+    margin-top: 20px;
+    border: 1px green solid;
+    padding: 8px 18px;
+    background-color: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.close-btn {
+    display: inline-block;
+    font-size: 24px;
+    cursor: pointer;
+}
